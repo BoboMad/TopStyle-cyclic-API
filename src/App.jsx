@@ -13,7 +13,7 @@ function App() {
         <Router>
           <NavbarComponent/>
           <Routes>
-                <Route exact path="/TopStyle-cyclic-API" element={<ProductGrid/>} />
+                <Route exact path="/" element={<ProductGrid/>} />
                 <Route path="/checkout" element={<CheckOut/>} />
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/product/:productId" element={<ProductDetailView />} />
