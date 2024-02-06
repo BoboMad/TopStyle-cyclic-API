@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <AppProvider>
-        <Router>
+        <Router basename='/TopStyle-cyclic-API/'>
           <NavbarComponent/>
           <Routes>
                 <Route exact path="/" element={<ProductGrid/>} />
